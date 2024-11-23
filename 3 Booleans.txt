@@ -1,0 +1,19 @@
+Boolean is just another data type similar to integers and strings.
+However, Boolean variables can have only two values: True and False.
+Booleans represent one of two values: True or False.
+
+print(11 > 9)         True
+print(10 == 9)        False
+print(11 < 9)         False
+print(10 == 10)       True
+
+
+Where do we use booleans?
+- We use booleans in conditional statements.
+
+Example
+
+age = 22
+if(age>18):
+  print(" You can vote")
+
