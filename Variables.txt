@@ -1,0 +1,27 @@
+Variables in Python - 
+
+Variables in Python are used to store information . Variables are containers that are used to store data.
+
+You just assign a value to a variable using the = operator.
+
+Example
+
+name = “Bigya Panta”
+address = “USA”
+print(name)
+print(address)
+
+Legal Variable Names
+myvar = "Avany"      
+my_var = "John"      
+_my_var = "John"
+myVar = "John"       (You can use this too)
+MYVAR = "John"
+myvar2 = "John"
+numb1 = 5
+
+Illegal Variable Names
+
+2myvar = "Miraj"      (This is illegal)
+my-var = "Miraj"      (This is illegal)
+my var = "Miraj"      ( This is illegal)
