@@ -1,0 +1,21 @@
+Data Types in Python   
+
+In Python, data types are used to define the type of a value stored in a variable. 
+
+In Python, data types are a classification that dictates what type of value a variable can hold and what operations can be performed on it
+
+
+Some basic data types.
+String - Bigya , Kathmandu , Nepal, coding king - It in enclosed in  “  ”.
+int - 5 , 6 , 7 , 8 , 9
+float - 3.4 , 4.5 , 6.6
+
+
+type function in Python is used to return the data type of the object / variable.
+
+name = “Bigya Pant”
+age = 10
+address = “Tokha”
+print(type(name))
+print(type(age))
+print(type(address))
