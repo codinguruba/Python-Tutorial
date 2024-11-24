@@ -1,0 +1,24 @@
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+
+'Ojashwi' is the same as "Ojashwi".
+
+In Python, strings are used for representing textual data. 
+A string is a sequence of characters enclosed in either single quotes ('') or double quotes (“”).
+
+Assign String to a Variable
+
+a = "Helloworld"
+print(a)
+
+Some library functions in Strings.
+
+The upper() method returns the string in upper case:
+
+a = "Ojashwi"
+print(a.upper())
+
+The lower() method returns the string in lower case:
+
+a = "OJASHWI"
+print(a.lower())
+
