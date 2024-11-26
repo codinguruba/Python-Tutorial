@@ -10,3 +10,8 @@ fruits = ["apple","banana","mango"]
 print(fruits)
 f = input("What fruit you want to add:")
 fruits.append(f)
+
+cars = ["hundai","tata","honda"]
+r = input("What do you want to remove:")
+cars.remove(r)
+print(cars)
