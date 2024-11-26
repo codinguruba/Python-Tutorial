@@ -1,0 +1,12 @@
+List
+Lists are used to store multiple items in a single variable.
+Lists are created using square brackets:
+
+
+
+
+Appending data in a data
+fruits = ["apple","banana","mango"]
+print(fruits)
+f = input("What fruit you want to add:")
+fruits.append(f)
