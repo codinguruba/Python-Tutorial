@@ -5,7 +5,7 @@ Lists are created using square brackets:
 
 
 
-Appending data in a data
+Appending data in a list
 fruits = ["apple","banana","mango"]
 print(fruits)
 f = input("What fruit you want to add:")
