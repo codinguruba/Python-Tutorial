@@ -1,0 +1,17 @@
+Loops are a fundamental concept in programming that allow programmers to perform repetitive tasks efficiently.
+Loops or Iteration Statements in Programming are helpful when we need a specific task in repetition.
+
+for loops in python.
+A for loop is used for iterating over a sequence
+(that is either a list, a tuple, a dictionary, a set, or a string).
+
+# Example program
+for i in range(1, 6):
+  print(i)
+
+
+# Example program
+
+for i in range(0,5):
+    print("Hello world")
+
