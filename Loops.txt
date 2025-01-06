@@ -19,7 +19,6 @@ for i in range(0,5):
 # Example code of list iteration using foor loop 
 
 cars = ["volvo","mercedes","tesla","BMW"]
-
 for x in cars:
      print(x)
 
