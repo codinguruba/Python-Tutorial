@@ -22,3 +22,10 @@ cars = ["volvo","mercedes","tesla","BMW"]
 for x in cars:
      print(x)
 
+
+i = 1
+while(i<6):
+    print("Coding class")
+    i+= 1
+    
+
