@@ -1,0 +1,47 @@
+# Question 1
+
+print('''
+|-----------------------------|
+| Welcome to my calculator    |
+|   Press a to add            |
+|   Press s to subtract       |
+|   Press m to multiply       |
+|   Press q to quit calculator|
+|-----------------------------|
+''')
+
+def addition():
+    a = int(input("Enter a:"))
+    b = int(input("Enter b:"))
+    print(a+b)
+    
+def subtract():
+    a = int(input("Enter a:"))
+    b = int(input("Enter b:"))
+    print(a-b)
+    
+def multiply():
+    a = int(input("Enter a:"))
+    b = int(input("Enter b:"))
+    print(a*b)
+    
+running = True
+
+while(running):
+    choice = input("Enter a choice:")
+    
+    if(choice == "a"):
+        addition()
+        
+    elif(choice == "s"):
+        subtract()
+        
+    elif(choice == "m"):
+        multiply()
+        
+    elif(choice == "q"):
+        print("Calculator Off")
+        break
+        
+    else:
+        print("Invalid")
