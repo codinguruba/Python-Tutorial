@@ -1,0 +1,18 @@
+
+1) What is variables in python?
+Variables are containers for storing data values.
+Python has no command for declaring a variable.
+A variable is created the moment you first assign a value to it.
+
+Example : name = "John"
+
+2) What is Data Types in Python?
+Variables can store data of different types, and different types can do different things.
+A data type is an attribute associated with a piece of data that tells a computer system how to interpret its value.
+
+3) What is String in Python?
+In Python, strings are used for representing textual data. 
+A string is a sequence of characters enclosed in either single quotes ('') or double quotes (“”).
+
+4) Integer 
+
