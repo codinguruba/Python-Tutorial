@@ -45,3 +45,52 @@ while(running):
         
     else:
         print("Invalid")
+
+
+#Practise question 2
+
+
+student_data = ["John","Albin","Alex"]
+print('''
+|--------------------------------------|
+|      Welcome to my student program   |
+|      Press d to display student      |
+|      Press a to add student          |
+|      Press r to remove a student     |
+|--------------------------------------|
+''')
+
+def display_student():
+    print(student_data)
+    
+def add_student():
+    s = input("Enter student name to add:")
+    student_data.append(s)
+    print(student_data)
+    
+def remove_student():
+    s = input("Enter the student name to delete:")
+    student_data.remove(s)
+    print(student_data)
+    
+running = True
+
+while(running):
+    
+    choice = input("Enter a choice:")
+    
+    if(choice == "d"):
+        display_student()
+        
+    elif(choice == "a"):
+        add_student()
+        
+    elif(choice == "r"):
+        remove_student()
+        
+    elif(choice == "q"):
+        break
+    
+    else:
+        print("Invalid choice")
+    
