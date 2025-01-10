@@ -93,4 +93,18 @@ while(running):
     
     else:
         print("Invalid choice")
+
+# Write a python program to check whether a string is palindrome or not.
+
+def check_palindrome(text):
+    reversed_text = text[::-1]
+    if text == reversed_text:
+        return "The text is a palindrome"
+    else:
+        return "The text is not a palindrome"
+        
+ans = check_palindrome("madam")
+print(ans)
+
+
     
