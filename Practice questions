@@ -106,5 +106,18 @@ def check_palindrome(text):
 ans = check_palindrome("madam")
 print(ans)
 
+# cube and square
+
+def calculate_square(number):
+    return number**2
+    
+def calculate_cube(number):
+    return number**3
+    
+r1 = calculate_square(2)
+r2 = calculate_cube(3)
+print(r1)
+print(r2)
+
 
     
