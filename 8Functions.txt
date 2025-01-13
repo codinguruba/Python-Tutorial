@@ -27,3 +27,13 @@ addition()
 subtract()
 multiply()
 
+# Parameters in Function
+
+A parameter is the variable listed inside the parentheses in the function definition
+Example
+
+def add_numbers(a,b,c):
+     add = a+b+c
+     print(add)
+
+add_numbers(5,4,3)
