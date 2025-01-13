@@ -1,0 +1,16 @@
+A function is a block of code which executes only when it gets called.
+Function is a block of reusable code that performs a specific task when called.
+
+Advantages of Function in Python
+Enables reusability and reduces redundancy.
+Makes a code modular
+Easy to Manage
+
+Example of function
+
+def addition():
+    a = 10
+    b = 20
+    print(a+b)
+
+addition()      
