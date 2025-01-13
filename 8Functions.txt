@@ -13,4 +13,17 @@ def addition():
     b = 20
     print(a+b)
 
-addition()      
+def subtract():
+    a = 10
+    b = 2
+    print(a-b)
+
+def multiply():
+    a = 10
+    b = 2
+    print(a*b)
+
+addition()
+subtract()
+multiply()
+
